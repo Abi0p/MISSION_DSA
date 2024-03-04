@@ -45,5 +45,5 @@ class majorityelement{
 		// Function calling
 		findMajority(arr, n);
 	}
-	// This code is contributed by ajit.
+	
 }

@@ -8,7 +8,7 @@ public class Full_pyramid {
      */
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
-        int n;
+        int n,flag=0;
         System.out.println("enter no. of rows");
         n=sc.nextInt();
         for (int i=1;i<=n;i++){
@@ -18,11 +18,18 @@ public class Full_pyramid {
             
             }
             for (int k=1;k<=2*i-1;k++){
-                System.out.print("*");
+                if(flag==0){
+                    System.out.print("*");
+                    flag =1;
+
+                }
+                else if (flag==1){
+                    System.out.print(" ");flag=0;
+                }
             }
             System.out.println(); 
         }
     }
 }
     
-5
+

@@ -1,1 +1,5 @@
-Hello worldugu
+def reverse_string(input_str):
+    reversed_string = ""
+    for char in reversed_string(input_str):
+        reversed_string += char
+    return reversed_string
